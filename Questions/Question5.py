@@ -1,4 +1,4 @@
-### Q4:- Write a program to find the euclidean distance between two coordinates.Take both the coordinates from the user as input.
+### Q5:- Write a program to find the euclidean distance between two coordinates.Take both the coordinates from the user as input.
 
 x1 = float(input("enter the x1 coordinaate: "))
 x2 = float(input("enter the x2 coordinaate: "))
