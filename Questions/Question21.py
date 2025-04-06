@@ -10,4 +10,4 @@ while n>0:
     # print(n , l)
 
 for i in l[::-1]:
-    print(i , end="")
+    print(i , end="")   
