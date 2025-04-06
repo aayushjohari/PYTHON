@@ -1,4 +1,4 @@
-### **Problem 11:** Create Short Form from initial character
+### **Problem 12:** Create Short Form from initial character
 # Given a string create short form ofthe string from Initial character. Short form should be capitalised.
 
 s = input("enter the string: ")
