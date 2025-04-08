@@ -9,5 +9,5 @@ def check_unique(lst):
         seen.add(i)
     return True
 
-check_unique([1 ,2,3,4,5 ,5])
-check_unique([1,2,3,4,5])
+print(check_unique([1 ,2,3,4,5 ,5]))
+print(check_unique([1,2,3,4,5]))
