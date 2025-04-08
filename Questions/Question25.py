@@ -8,6 +8,9 @@ def check_unique(lst):
             return False
         seen.add(i)
     return True
+lst =[]
+numbers = input("Enter the sequence: ").split()
+for i in numbers:
+    lst.append(int(i))
 
-print(check_unique([1 ,2,3,4,5 ,5]))
-print(check_unique([1,2,3,4,5]))
+print(check_unique(lst))
