@@ -1,4 +1,4 @@
-# ###`Problem 4:` Running Sum on list
+# ### Running Sum on list
 # Write a program to print a list after performing running sum on it.
 
 # i.e:
