@@ -1,5 +1,5 @@
 '''
-def rem_dup(arr):
+def soreted_rem_dup(arr):
 
     temp = [0] * len(arr)
 
@@ -19,7 +19,7 @@ def rem_dup(arr):
 arr = [10,10,20,10,40]
 print(rem_dup(arr))
 '''
-
+'''
 def unsorted_rem(arr):
 
     temp = []
@@ -33,3 +33,24 @@ def unsorted_rem(arr):
 
 arr = [10,10,20,10,40]
 print(unsorted_rem(arr))
+'''
+
+
+
+def remove_duplicates(arr, n):
+
+    res = 1
+
+    for i in range(1 , n):
+
+        if arr[res-1] != arr[i]:
+
+            arr[res] = arr[i]
+
+            res+=1
+
+    return arr[:res]
+
+arr =[10,20,30,40,40,40]
+
+print(remove_duplicates(arr , len(arr)))
