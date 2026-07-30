@@ -4,6 +4,8 @@ def binarySearch(arr , x):
 
     high = len(arr)-1
 
+    ans =-1
+
     while low <= high:
 
         mid = (low + high)//2
