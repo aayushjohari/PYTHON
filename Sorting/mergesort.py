@@ -1,0 +1,40 @@
+def mergesort(arr):
+
+    if len(arr) <= 1:
+        return arr
+
+    mid = len(arr)//2
+
+    left = mergesort(arr[:mid])
+    right = mergesort(arr[mid:])
+
+    return merge(left, right)
+
+def merge(left, right):
+
+    i = 0
+    j = 0
+    ans = []
+
+    while i < len(left)  and j < len(right):
+
+        if left[i] <= right[j]:
+            ans.append(left[i])
+            i+=1
+
+        else:
+            ans.append(right[j])
+            j+=1
+
+    while i < len(left):
+        ans.append(left[i])
+        i+=1
+
+    while j < len(right):
+        ans.append(right[j])
+        j+=1
+
+    return ans
+
+arr = [10, 15, 20, 40, 8, 11, 55]
+print(mergesort(arr))
