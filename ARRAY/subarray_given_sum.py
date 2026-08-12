@@ -13,7 +13,7 @@ def subarray_given_sum(arr , sum):
             left +=1
 
         if curr == sum :
-            return arr[left : i+1]
+            return [left , i]
 
     return [-1.-1]
 
