@@ -12,7 +12,7 @@ def remove_dup(arr):
 
     return arr[:i]
 
-arr = [1, 1, 2, 2, 3, 4, 4]
+arr = [1, 10,10, 5, 2, 3, 4, 4]
 print(remove_dup(arr))
 
             
